@@ -1,5 +1,128 @@
-<div class="jumbotron text-center">
-	<h1>Floor plan page</h1>
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/dashboard/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="Restaurant Application" content="">
+    <meta name="Josh Cooley" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-	<p>{{ tagline }}</p>
-</div>
+
+    <title>Restaurant Application</title>
+
+    <!-- Bootstrap core CSS -->
+<!--     <link href="dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+    <!-- Custom styles -->
+    <link href='http://fonts.googleapis.com/css?family=OpenSans:400,600,700,800,300,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Restaurant Application</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Custom jQuery -->
+     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="js/custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body cz-shortcut-listen="true">
+
+  <nav class="navbar navbar-inverse bg-faded">
+  <a class="navbar-brand" href="#">Logo</a>
+  <ol class="breadcrumb">
+  <li><a href="#">Tables</a></li>
+  <li class="active">Table 33</li>
+</ol>
+  
+</nav>
+
+    <div class="container-fluid">
+     
+     
+        <div class="btn-group absolute" role="group">
+          <button type="button" class="btn btn-default" id="listButton">List </button>
+          <button type="button" class="btn btn-primary" id="floorButton">Floor</button>
+        </div>
+       
+      <div id="floorPlan">
+            <img class="img-responsive" src="docs/assets/img/floor-plan.jpg"/>
+        </div>
+      
+        <div class="col-xs-12 main" id="tablesList">
+          <h2 class="sub-header">My Tables</h2>
+          <div class="table-responsive table-hover">
+            <table class="table" id="myTables">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>#</th>
+                  <th>Status</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-danger" onclick="document.location = 'menu.html';">
+                  <td>33</td>
+                  <td><i class="fa fa-danger"></i> Needs Attention </td>
+                  <td>ipsum</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                </tr>
+                <tr class="table-info">
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                </tr>
+                <tr>
+                  <td>1,004</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                </tr>
+                <tr>
+                  <td>1,005</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                </tr>
+                <tr>
+                  <td>1,006</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                </tr>
+               
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script type="javascript" src="dist/js/bootstrap.min.js"/>
+    
+
+    
+    
+
+    
+  
