@@ -10,11 +10,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #eee;
-}
-
-.navbar {
-	border-radius: 0;
+	background-color: blue;
 }
 
 .jumbotron {
@@ -23,28 +19,6 @@ body {
 	color: white;
 	}	
 }
-.absolute {
-	position: absolute;
-}
 
-#floor-plan {
-	max-height: 100rem;
-}
+h1 { color: #000;}
 
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  & > [class^="col-"],
-  & > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.view-toggle {
-	position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 2;
-}

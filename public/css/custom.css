@@ -70,51 +70,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /*@import "font-awesome-compass";*/
 /*@import "font-awesome";*/
-/* line 11, ../sass/screen.scss */
+/* line 11, ../sass/custom.scss */
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #eee;
+  background-color: blue;
 }
 
-/* line 16, ../sass/screen.scss */
-.navbar {
-  border-radius: 0;
-}
-
-/* line 20, ../sass/screen.scss */
+/* line 16, ../sass/custom.scss */
 .jumbotron {
   background-color: red;
 }
-/* line 22, ../sass/screen.scss */
+/* line 18, ../sass/custom.scss */
 .jumbotron h1 {
   color: white;
 }
 
-/* line 26, ../sass/screen.scss */
-.absolute {
-  position: absolute;
-}
-
-/* line 30, ../sass/screen.scss */
-#floor-plan {
-  max-height: 100rem;
-}
-
-/* line 34, ../sass/screen.scss */
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-/* line 38, ../sass/screen.scss */
-.row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* line 45, ../sass/screen.scss */
-.view-toggle {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
+/* line 23, ../sass/custom.scss */
+h1 {
+  color: #000;
 }
